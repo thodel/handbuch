@@ -30,11 +30,11 @@ handbuch/
 
 ## Konzeptuelle Arbeit
 
-Die konzeptuellen Grundlagen (Strukturvorschlag, Literaturliste, Handbücher-Vergleich) werden in einem separaten Projektordner erarbeitet und gepflegt. Inhaltliche Updates werden von dort in diese Site übertragen. Der Konzeptordner wird nicht in diesem Repository versioniert.
+Dieses Repo ist work-in-progress und repräsentiert weder die abschliessende Meinung der Herausgeber:innen noch des Verlags. Aktuell (2026 bis März 2027) wird aktiv nach Ideen und Strukturen gesucht.
 
-## Verbundene Projekte
+## Verbundene Projekte und Publikationen
 
-- **Introduction to Humanities Data Science (HDS)** — Universität Bern: Die HDS-Unterkapitel und Notebooks sind direkt als Praxisbausteine in Teil II des Handbuchs integriert.
+Aktuell keine. Kooperationsvorschläge können gerne gemacht werden.
 
 ## Lizenz
 
