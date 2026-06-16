@@ -1,0 +1,480 @@
+/* ─── Reset & Base ─────────────────────────────────────────────────── */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --black: #111111;
+  --white: #ffffff;
+  --grey-light: #f5f5f5;
+  --grey-mid: #e0e0e0;
+  --grey-text: #555555;
+  --dh-teal: #2BBBAD;
+  --dh-red: #E30613;
+  --font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --max-width: 860px;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: var(--font);
+  color: var(--black);
+  background: var(--white);
+  line-height: 1.65;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ─── Header ────────────────────────────────────────────────────────── */
+
+header {
+  border-bottom: 1px solid var(--black);
+}
+
+.header-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 2rem 1.5rem 1.5rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 2.5rem;
+}
+
+.logos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  flex-shrink: 0;
+}
+
+.logo {
+  display: block;
+}
+
+.logo-unibe {
+  height: 44px;
+  width: auto;
+}
+
+.logo-dh {
+  height: 48px;
+  width: auto;
+}
+
+.header-title {
+  padding-top: 0.25rem;
+}
+
+.site-label {
+  display: block;
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--grey-text);
+  margin-bottom: 0.3rem;
+}
+
+.header-title h1 {
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+}
+
+.header-title h1 a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+/* ─── Navigation ────────────────────────────────────────────────────── */
+
+nav {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 0;
+  border-top: 1px solid var(--grey-mid);
+}
+
+nav ul li a {
+  display: block;
+  padding: 0.6rem 1.1rem 0.6rem 0;
+  font-size: 0.82rem;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--grey-text);
+  transition: color 0.15s;
+}
+
+nav ul li:first-child a {
+  padding-left: 0;
+}
+
+nav ul li a:hover {
+  color: var(--black);
+}
+
+nav ul li a.active {
+  color: var(--black);
+  font-weight: 600;
+  border-bottom: 2px solid var(--black);
+}
+
+/* ─── Main Content ──────────────────────────────────────────────────── */
+
+main {
+  flex: 1;
+  max-width: var(--max-width);
+  width: 100%;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 4rem;
+}
+
+.page-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 2.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--grey-mid);
+}
+
+/* ─── Typography ────────────────────────────────────────────────────── */
+
+main h1 { font-size: 1.6rem; font-weight: 700; margin-bottom: 1.5rem; letter-spacing: -0.02em; }
+main h2 { font-size: 1.15rem; font-weight: 700; margin-top: 2.5rem; margin-bottom: 0.75rem; letter-spacing: -0.01em; }
+main h3 { font-size: 0.95rem; font-weight: 700; margin-top: 1.75rem; margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 0.04em; }
+
+main p { margin-bottom: 1rem; font-size: 0.95rem; }
+main p + p { margin-top: 0; }
+
+main ul, main ol {
+  margin: 0.75rem 0 1rem 1.4rem;
+  font-size: 0.95rem;
+}
+
+main li { margin-bottom: 0.3rem; }
+
+main a {
+  color: var(--black);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+main a:hover {
+  text-decoration-color: var(--dh-teal);
+}
+
+main strong { font-weight: 600; }
+
+/* ─── Lead / Intro Block ────────────────────────────────────────────── */
+
+.lead {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--black);
+  margin-bottom: 2.5rem;
+  max-width: 640px;
+}
+
+/* ─── Status Badge ──────────────────────────────────────────────────── */
+
+.badge {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.15em 0.5em;
+  border-radius: 2px;
+  vertical-align: middle;
+  margin-left: 0.4em;
+}
+
+.badge-active   { background: var(--black); color: var(--white); }
+.badge-planned  { background: var(--grey-mid); color: var(--grey-text); }
+.badge-open     { border: 1px solid var(--grey-mid); color: var(--grey-text); }
+
+/* ─── Structure Block ───────────────────────────────────────────────── */
+
+.part {
+  margin-bottom: 2.5rem;
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid var(--grey-mid);
+}
+
+.part:last-child {
+  border-bottom: none;
+}
+
+.part-label {
+  font-size: 0.68rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--grey-text);
+  margin-bottom: 0.3rem;
+}
+
+.part-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.chapter-list {
+  list-style: none;
+  margin: 0;
+}
+
+.chapter-list li {
+  display: flex;
+  gap: 0.75rem;
+  padding: 0.4rem 0;
+  border-top: 1px solid var(--grey-light);
+  font-size: 0.875rem;
+  align-items: baseline;
+}
+
+.chapter-list li:first-child {
+  border-top: none;
+}
+
+.ch-num {
+  font-variant-numeric: tabular-nums;
+  color: var(--grey-text);
+  flex-shrink: 0;
+  width: 2rem;
+}
+
+.ch-title { flex: 1; }
+.ch-scope { color: var(--grey-text); font-size: 0.78rem; flex-shrink: 0; }
+
+/* ─── Handbücher Table ──────────────────────────────────────────────── */
+
+.book-grid {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.book-card {
+  border: 1px solid var(--grey-mid);
+  padding: 1.25rem 1.5rem;
+}
+
+.book-card h3 {
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: none;
+  letter-spacing: 0;
+  margin-top: 0;
+  margin-bottom: 0.3rem;
+}
+
+.book-meta {
+  font-size: 0.78rem;
+  color: var(--grey-text);
+  margin-bottom: 0.75rem;
+}
+
+.book-meta span + span::before { content: " · "; }
+
+.book-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-bottom: 0.75rem;
+}
+
+.tag {
+  font-size: 0.68rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 0.1em 0.45em;
+  border: 1px solid var(--grey-mid);
+  color: var(--grey-text);
+}
+
+.tag-dach { border-color: var(--black); color: var(--black); }
+
+.book-note {
+  font-size: 0.82rem;
+  color: var(--grey-text);
+  margin: 0;
+}
+
+/* ─── Status Table ──────────────────────────────────────────────────── */
+
+.status-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  margin-top: 1rem;
+}
+
+.status-table th {
+  text-align: left;
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--grey-text);
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid var(--black);
+}
+
+.status-table td {
+  padding: 0.55rem 0.75rem;
+  border-bottom: 1px solid var(--grey-light);
+  vertical-align: top;
+}
+
+.status-table tr:last-child td { border-bottom: none; }
+
+/* ─── Hero (Homepage) ───────────────────────────────────────────────── */
+
+.hero {
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid var(--grey-mid);
+}
+
+.hero h2 {
+  font-size: 0.78rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--grey-text);
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.hero-desc {
+  font-size: 1rem;
+  max-width: 620px;
+  color: var(--black);
+  margin-bottom: 2rem;
+}
+
+.key-facts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: var(--grey-mid);
+  border: 1px solid var(--grey-mid);
+  margin-top: 2rem;
+}
+
+.fact {
+  background: var(--white);
+  padding: 1.1rem 1.25rem;
+}
+
+.fact-num {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 0.25rem;
+  letter-spacing: -0.03em;
+}
+
+.fact-label {
+  font-size: 0.75rem;
+  color: var(--grey-text);
+  letter-spacing: 0.02em;
+}
+
+.cta-links {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.cta {
+  display: inline-block;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  padding: 0.6rem 1.2rem;
+  text-decoration: none;
+  border: 1px solid var(--black);
+  color: var(--black);
+  transition: background 0.15s, color 0.15s;
+}
+
+.cta:hover {
+  background: var(--black);
+  color: var(--white);
+  text-decoration: none;
+}
+
+.cta-secondary {
+  border-color: var(--grey-mid);
+  color: var(--grey-text);
+}
+
+.cta-secondary:hover {
+  background: var(--grey-light);
+  color: var(--black);
+}
+
+/* ─── Footer ────────────────────────────────────────────────────────── */
+
+footer {
+  border-top: 1px solid var(--black);
+  padding: 1.25rem 1.5rem;
+}
+
+.footer-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.75rem;
+  color: var(--grey-text);
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.license-link {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  text-decoration: none;
+  color: var(--grey-text);
+  font-size: 0.75rem;
+  flex-shrink: 0;
+}
+
+.license-link:hover { color: var(--black); }
+
+.cc-badge {
+  height: 20px;
+  width: auto;
+  display: block;
+}
+
+/* ─── Responsive ────────────────────────────────────────────────────── */
+
+@media (max-width: 600px) {
+  .header-inner { flex-direction: column; gap: 1.25rem; }
+  .logos { flex-direction: row; align-items: center; gap: 1.25rem; }
+  .key-facts { grid-template-columns: 1fr 1fr; }
+  nav ul { flex-wrap: wrap; gap: 0.25rem; }
+  nav ul li a { padding: 0.5rem 0.75rem 0.5rem 0; }
+  .footer-inner { flex-direction: column; align-items: flex-start; }
+}

@@ -216,3 +216,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Jekyll build output (GitHub Pages baut _site/ selbst)
+_site/
+
+# Claude Code
+.claude/

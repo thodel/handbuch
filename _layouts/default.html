@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <div class="logos">
+        <a href="https://www.unibe.ch" target="_blank" rel="noopener">
+          <img src="{{ '/logo_unibern@2x.png' | relative_url }}" alt="Universität Bern" class="logo logo-unibe">
+        </a>
+        <img src="{{ '/DH_Farbe_png.png' | relative_url }}" alt="Digital Humanities" class="logo logo-dh">
+      </div>
+      <div class="header-title">
+        <span class="site-label">Handbuch</span>
+        <h1><a href="{{ '/' | relative_url }}">Digital Humanities<br>im deutschsprachigen Raum</a></h1>
+      </div>
+    </div>
+
+    <nav>
+      <ul>
+        {% for item in site.nav %}
+        <li>
+          <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} class="active"{% endif %}>
+            {{ item.title }}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    {% if page.title and page.url != "/" %}
+    <h1 class="page-title">{{ page.title }}</h1>
+    {% endif %}
+    {{ content }}
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <span>Digital Humanities Handbuch im deutschsprachigen Raum · Universität Bern — in Erarbeitung</span>
+      <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener" class="license-link">
+        <img src="{{ '/assets/images/cc-by-nc.svg' | relative_url }}" alt="Creative Commons BY-NC 4.0" class="cc-badge">
+        CC BY-NC 4.0
+      </a>
+    </div>
+  </footer>
+
+</body>
+</html>

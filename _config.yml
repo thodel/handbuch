@@ -1,0 +1,23 @@
+title: "Digital Humanities Handbuch"
+description: "Handbuch Digital Humanities im deutschsprachigen Raum"
+baseurl: ""
+url: ""
+
+lang: de
+
+nav:
+  - title: Projekt
+    url: /
+  - title: Buchstruktur
+    url: /struktur
+  - title: Handbücher im Vergleich
+    url: /handbuecher
+  - title: Arbeitsstand
+    url: /arbeitsstand
+  - title: Mitwirken
+    url: /beitragen
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
