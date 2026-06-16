@@ -10,7 +10,7 @@ title: Handbücher im Vergleich
 <div class="book-grid">
 
 <div class="book-card">
-<h3>A Companion to Digital Humanities</h3>
+<h3><a href="https://companions.digitalhumanities.org/">A Companion to Digital Humanities</a></h3>
 <div class="book-meta">
   <span>Schreibman / Siemens / Unsworth (Hg.)</span>
   <span>Blackwell, 2004</span>
@@ -26,7 +26,7 @@ title: Handbücher im Vergleich
 </div>
 
 <div class="book-card">
-<h3>The Bloomsbury Handbook to the Digital Humanities</h3>
+<h3><a href="https://www.bloomsbury.com/us/bloomsbury-handbook-to-the-digital-humanities-9781350232129/">The Bloomsbury Handbook to the Digital Humanities</a></h3>
 <div class="book-meta">
   <span>O'Sullivan (Hg.)</span>
   <span>Bloomsbury, 2022</span>
@@ -42,7 +42,7 @@ title: Handbücher im Vergleich
 </div>
 
 <div class="book-card">
-<h3>Digital Humanities in den Geschichtswissenschaften</h3>
+<h3><a href="https://www.utb.de/doi/10.36198/9783838561165">Digital Humanities in den Geschichtswissenschaften</a></h3>
 <div class="book-meta">
   <span>Antenhofer / Kühberger / Strohmeyer (Hg.)</span>
   <span>UTB/Böhlau, 2024</span>
@@ -58,7 +58,7 @@ title: Handbücher im Vergleich
 </div>
 
 <div class="book-card">
-<h3>Digital History. Konzepte, Methoden und Kritiken Digitaler Geschichtswissenschaft</h3>
+<h3><a href="https://doi.org/10.1515/9783110757101">Digital History. Konzepte, Methoden und Kritiken Digitaler Geschichtswissenschaft</a></h3>
 <div class="book-meta">
   <span>Döring / Haas / König / Wettlaufer (Hg.)</span>
   <span>De Gruyter, 2022</span>
@@ -75,7 +75,7 @@ title: Handbücher im Vergleich
 </div>
 
 <div class="book-card">
-<h3>From Global to Local. Digitale Methoden im deutschsprachigen Raum: Ein Triptychon</h3>
+<h3><a href="https://www.melusinapress.lu/read/from-global-to-local/section/5bbb0532-8aa7-44f4-9876-c6b3855eef0a">From Global to Local. Digitale Methoden im deutschsprachigen Raum: Ein Triptychon</a></h3>
 <div class="book-meta">
   <span>Wuttke / Nunn / Schröter / Seltmann / Wachter (Hg.)</span>
   <span>Melusina Press, 2026</span>
@@ -92,7 +92,7 @@ title: Handbücher im Vergleich
 </div>
 
 <div class="book-card">
-<h3>Alternative Historiographies of the Digital Humanities</h3>
+<h3><a href="https://punctumbooks.com/titles/alternative-historiographies-of-the-digital-humanities/">Alternative Historiographies of the Digital Humanities</a></h3>
 <div class="book-meta">
   <span>Kim / Koh (Hg.)</span>
   <span>punctum books, 2021</span>
@@ -109,7 +109,7 @@ title: Handbücher im Vergleich
 </div>
 
 <div class="book-card">
-<h3>Digital Humanities and Digital Media. Conversations on Politics, Culture, Aesthetics and Literacy</h3>
+<h3><a href="http://www.openhumanitiespress.org/books/titles/digital-humanities-and-digital-media/">Digital Humanities and Digital Media. Conversations on Politics, Culture, Aesthetics and Literacy</a></h3>
 <div class="book-meta">
   <span>Simanowski</span>
   <span>Open Humanities Press, 2016</span>
@@ -125,7 +125,7 @@ title: Handbücher im Vergleich
 </div>
 
 <div class="book-card">
-<h3>The Digital Humanities Coursebook</h3>
+<h3><a href="https://www.routledge.com/The-Digital-Humanities-Coursebook-An-Introduction-to-Digital-Methods-for-Research-and-Scholarship/Drucker/p/book/9780367565756">The Digital Humanities Coursebook</a></h3>
 <div class="book-meta">
   <span>Drucker</span>
   <span>Routledge, 2021</span>
