@@ -45,7 +45,7 @@ Die Methodenkapitel (Teil II) integrieren die Unterkapitel und Notebooks des Pro
 ## Positionierung
 
 <div class="cta-links">
-  <a href="/struktur" class="cta">Buchstruktur ansehen</a>
-  <a href="/handbuecher" class="cta cta-secondary">Vergleich bestehender Handbücher</a>
-  <a href="/arbeitsstand" class="cta cta-secondary">Arbeitsstand</a>
+  <a href="{{ '/struktur' | relative_url }}" class="cta">Buchstruktur ansehen</a>
+  <a href="{{ '/handbuecher' | relative_url }}" class="cta cta-secondary">Vergleich bestehender Handbücher</a>
+  <a href="{{ '/arbeitsstand' | relative_url }}" class="cta cta-secondary">Arbeitsstand</a>
 </div>
