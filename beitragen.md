@@ -33,12 +33,6 @@ Deutsch ist die Hauptsprache des Handbuchs. Einzelne Beiträge auf Englisch sind
 
 ---
 
-## Verhältnis zum HDS-Projekt
-
-Das Handbuch ist eng mit dem Projekt *Introduction to Humanities Data Science* (Universität Bern) verbunden. HDS-Unterkapitel und Notebooks sind direkt als Praxisbausteine in Teil II integriert (mit HDS-Kürzel gekennzeichnet). HDS-Autor:innen werden zu Mitwirkenden der jeweiligen Handbuchkapitel.
-
----
-
 ## Kontakt
 
 Anfragen zur Mitarbeit an Beiträgen oder zur Projektkoordination:

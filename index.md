@@ -38,9 +38,9 @@ Das Handbuch ist in drei Teile gegliedert:
 
 Jedes Kapitel beginnt mit einer kurzen Positionalitätserklärung der Autorinnen und Autoren: disziplinäre Verortung, Rolle, Begriffsverständnis und Umgang mit generativer KI. Diese Erklärungen werden im Schlusskapitel zur Synthese genutzt.
 
-### Verhältnis zum HDS-Projekt
+### Jupyter-Notebooks als Praxisbausteine
 
-Die Methodenkapitel (Teil II) integrieren die Unterkapitel und Notebooks des Projekts *Introduction to Humanities Data Science* (Uni Bern) direkt als Praxisbausteine. Das Handbuch liefert den theoretischen Rahmen, die kritische Einordnung und die Disziplinperspektiven; die HDS-Notebooks die Praxisbeispiele.
+Zu jedem methodischen Kapitel (Teil II) gibt es mindestens ein Jupyter-Notebook in Python — ausführbar ohne lokale Installation via JupyterHub oder Google Colab. Die Notebooks arbeiten mit offenen Datensätzen aus dem deutschsprachigen Raum und sind Teil des Handbuchs, nicht nachgelagerte Materialien.
 
 ## Positionierung
 

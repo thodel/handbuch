@@ -23,7 +23,7 @@ Aktueller Stand der Konzeptionsarbeit und offene Punkte. Die Konzeptdokumente we
     <tr>
       <td>Strukturvorschlag Handbuch</td>
       <td><span class="badge badge-active">Entwurf</span></td>
-      <td>Gesamtarchitektur Teil I–III, Unterkapitellisten mit HDS-Zuordnung, KI-Querschnitt, Notebook-Konzept</td>
+      <td>Gesamtarchitektur Teil I–III, Unterkapitellisten, KI-Querschnitt, Notebook-Konzept</td>
     </tr>
     <tr>
       <td>Übersicht bestehende Handbücher</td>
@@ -36,9 +36,9 @@ Aktueller Stand der Konzeptionsarbeit und offene Punkte. Die Konzeptdokumente we
       <td>59 PDFs erfasst und gruppiert (Sammelbände, Einzelaufsätze, Materialien)</td>
     </tr>
     <tr>
-      <td>Cross-Mapping Companion 2004 ↔ HDS</td>
+      <td>Cross-Mapping Companion 2004</td>
       <td><span class="badge badge-active">Entwurf</span></td>
-      <td>Abgleich der 37 Companion-Kapitel mit HDS-Unterkapiteln und Lücken seit 2004</td>
+      <td>Abgleich der 37 Companion-Kapitel mit Lücken seit 2004: genAI, HTR, Knowledge Graphs, FAIR, Crowdsourcing, Reproducibility</td>
     </tr>
   </tbody>
 </table>
@@ -60,13 +60,13 @@ Aktueller Stand der Konzeptionsarbeit und offene Punkte. Die Konzeptdokumente we
     <tr>
       <td>II.1 Skalierung / Scaled Reading</td>
       <td><span class="badge badge-active">Entwurf</span></td>
-      <td><span class="badge badge-planned">HDS-Basis</span></td>
+      <td><span class="badge badge-planned">geplant</span></td>
       <td><span class="badge badge-open">offen</span></td>
     </tr>
     <tr>
       <td>II.2 Visualisierung</td>
       <td><span class="badge badge-active">Entwurf</span></td>
-      <td><span class="badge badge-planned">HDS-Basis</span></td>
+      <td><span class="badge badge-planned">geplant</span></td>
       <td><span class="badge badge-open">offen</span></td>
     </tr>
     <tr>
@@ -84,7 +84,7 @@ Aktueller Stand der Konzeptionsarbeit und offene Punkte. Die Konzeptdokumente we
     <tr>
       <td>II.5 Aufbewahrung</td>
       <td><span class="badge badge-active">Entwurf</span></td>
-      <td><span class="badge badge-planned">HDS-Basis</span></td>
+      <td><span class="badge badge-planned">geplant</span></td>
       <td><span class="badge badge-open">offen</span></td>
     </tr>
     <tr>
@@ -106,28 +106,20 @@ Aktueller Stand der Konzeptionsarbeit und offene Punkte. Die Konzeptdokumente we
 
 ## Offene Punkte
 
-Die folgenden Fragen sind für die nächste Abstimmungsrunde vorgemerkt (aus dem Strukturvorschlag):
-
 ### Struktur
 
 - Reihenfolge/Gruppierung der 17 Disziplinkapitel (Teil III): nach zeitlichem Gegenstand (Antike → Moderne) oder nach Quellentyp (Text – Bild – Objekt – Raum)?
-- Aufteilung von II.1 „Skalierung": Ein Kapitel (14 Unterkapitel) oder zwei eigenständige Kapitel (Textanalyse/NLP vs. Netzwerkanalyse/KGs/Multimodal)?
+- Aufteilung von II.1 „Skalierung": Ein Kapitel (14 Unterkapitel) oder zwei eigenständige Kapitel (Textanalyse/NLP vs. Netzwerkanalyse/KGs/Multimodal/genAI)?
 - Einheitliches Fragenraster für Positionalitätserklärungen (3–5 Fragen, inkl. KI-Frage)
-
-### HDS-Integration
-
-- Welche HDS-Unterkapitel sind am weitesten fortgeschritten (erste Notebook-Beiträge vorhanden)?
-- Klärung gemeinsames Repository/Infrastruktur: GitHub Education, JupyterHub Uni Bern?
-- Autor:innen-Überschneidungen HDS ↔ Handbuch und deren Sichtbarmachung in Positionalitätserklärungen
 
 ### Autor:innen und Disziplinen
 
 - Anfrage und Auswahl von Beitragenden — insbesondere für derzeit unterrepräsentierte Disziplinen: Kunstgeschichte, Anthropologie, Musikwissenschaft, Theaterwissenschaft
-- Schnittstelle zum HDS-Team (Uni Bern): Abgleich Autorenzuordnung, Notebook-Entwicklung, Lizenzierung
+- Klärung der Autor:innen-Zuordnung für Methoden- und Disziplinkapitel
 
 ### Technische Infrastruktur
 
-- Lizenzierung: CC BY-SA analog zu HDS / Wuttke et al. 2026?
+- Notebook-Infrastruktur: GitHub-Repo, JupyterHub-Zugang, Lizenzierung
 - Publizierungsformat: gedruckt + Jupyter Book/MyST parallel?
 - Verlag und Open-Access-Finanzierung
 
@@ -135,7 +127,7 @@ Die folgenden Fragen sind für die nächste Abstimmungsrunde vorgemerkt (aus dem
 
 ## Nächste Schritte
 
-1. Abstimmungsrunde zu den offenen Punkten (Struktur, HDS-Integration)
+1. Abstimmungsrunde zu den offenen Punkten (Struktur, Disziplinreihenfolge)
 2. Anfrage potenzieller Beitragender für Disziplinkapitel
 3. Einheitliches Positionalitäts-Fragenraster ausarbeiten
-4. Notebook-Infrastruktur mit HDS-Team klären
+4. Notebook-Infrastruktur klären
