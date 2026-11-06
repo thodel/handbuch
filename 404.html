@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex">
+  <title>Umgezogen: Digital Humanities Handbuch</title>
+  <script>
+    // Alles unterhalb von /handbuch/ auf die neue Domain umleiten, Pfad beibehalten.
+    var rest = location.pathname.replace(/^\/handbuch\/?/, "");
+    location.replace("https://dh-handbuch.github.io/" + rest + location.search + location.hash);
+  </script>
+</head>
+<body>
+  <p>Diese Seite ist umgezogen nach <a href="https://dh-handbuch.github.io/">dh-handbuch.github.io</a>.</p>
+</body>
+</html>
